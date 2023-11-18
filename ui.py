@@ -22,7 +22,7 @@ entry1.pack(pady=12,padx=10, expand=True, fill="both")
 
 # creates text box 
 # ctk_text = ct.CTkTextbox(master=frame, font=("roboto", 20)).pack(expand=True, fill="both")
-label2 = ct.CTkLabel(master=frame, text="translated text", font=("roboto", 20))
+label2 = ct.CTkLabel(master=frame, text="", font=("roboto", 20))
 label2.pack(pady=12,padx=10)
 def get_inf_from_text():
     translated_text = morse.translate(plain_text=entry1.get())
